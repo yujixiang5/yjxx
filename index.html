@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2103604_11zgx3o6368i.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>工作网</h2>
+    </header>
+    <nav>
+        <i class="iconfont icon-iconfonticon-yonghu"></i>
+        <p><span>账号</span><input type="text" class="zh"></p>
+        <p><span>密码</span><input type="password" class="mm"></p>
+    </nav>
+    <article>
+        <button class="dl">登录</a></button>
+        <p><a href="zhuce.html">注册账号</a></p>
+    </article>
+    <footer>
+        <span>2021-2022 gongzuo.com版权所有</span>
+        <span>员工舞弊举报：wb@gongzuo.com</span>
+        <span>京公网备案信息11010502000809</span>
+        <span>联系我们 人力资源服务许可证|违法信息举报：4008135858 jubao@58ganji.com</span>
+    </footer>
+
+</body>
+<script src="js/rem.js"></script>
+<script src="js/zepto.min.js"></script>
+<script>
+    $(".dl").click = function() {
+        $.ajax({
+            type: 'post',
+            url: 'https://localhost:8080/opop/zuye',
+            success: function(e) {
+                var zh = $(".zh").val;
+                var mm = $(".mm").val;
+                if (e.name == zh && e.password == mm) {
+                    console.log(123)
+                }
+            }
+
+        })
+    }
+</script>
+
+</html>

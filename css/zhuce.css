@@ -1,0 +1,65 @@
+header {
+    width: 6.4rem;
+}
+
+header h2 {
+    width: 6.4rem;
+    height: 1rem;
+    background: hsl(0, 0%, 97%);
+}
+
+header h2 a {
+    font-size: 0.3rem;
+    font-weight: normal;
+    line-height: 1rem;
+    margin-left: 0.5rem;
+    color: #bdb2b2;
+}
+
+header ul {
+    width: 6.4rem;
+}
+
+header ul li {
+    height: 1.1rem;
+    line-height: 1.4rem;
+    padding: 0 0.3rem;
+}
+
+header ul li span {
+    font-size: 0.3rem;
+    display: inline-block;
+    width: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ccc;
+}
+
+header ul li input {
+    width: 3.8rem;
+    height: 0.6rem;
+    border-radius: 5px;
+    font-size: 0.27rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+ul .yan input {
+    width: 2rem;
+}
+
+ul .yzm {
+    width: 1.7rem;
+    height: 0.65rem;
+    background: #9e9efa;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+
+ul li .zc {
+    width: 5rem;
+    height: .8rem;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,82 @@
+body {
+    height: 812px;
+}
+
+header {
+    width: 6.4rem;
+    height: 1rem;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    background: hsl(0, 0%, 97%);
+    color: sandybrown;
+}
+
+nav {
+    width: 6.4rem;
+    text-align: center;
+}
+
+nav .icon-iconfonticon-yonghu {
+    font-size: 1.2rem;
+    color: sandybrown;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+}
+
+nav span {
+    font-size: 0.4rem;
+    margin-right: 0.2rem;
+    color: #ccc;
+}
+
+nav p {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav input {
+    width: 3.8rem;
+    height: 0.7rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 0.3rem;
+}
+
+article {
+    width: 6.4rem;
+    text-align: center;
+}
+
+article .dl {
+    width: 5rem;
+    height: 0.8rem;
+    background: sandybrown;
+    color: seashell;
+    font-weight: 900;
+    border: none;
+    font-size: 0.4rem;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 0.4rem;
+}
+
+article p a {
+    color: #ed5503;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+footer {
+    width: 6rem;
+    position: absolute;
+    bottom: 0.5rem;
+    text-align: center;
+    color: #ccc;
+    margin-left: 0.2rem;
+}
